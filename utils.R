@@ -10,7 +10,6 @@ best_lag <- function(
   demean,
   plot
 ) {
-  args <- match.call(expand.dots = TRUE)
   ac <- acf(
     x,
     lag.max = lag.max,
